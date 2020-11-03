@@ -5,7 +5,8 @@
 
 ### Links to:
 #### Installing project dependencies from a cloned repo
-  + GH repo: *https://github.com/CreativeNana/npm_activity/tree/main/hello-express*
+  + GH repo: *https://github.com/CreativeNana/hello-express*
+  +  https://creativenana.github.io/hello-express/
 
 ### Comments: 
   + Install NPM and Add NPM modules
