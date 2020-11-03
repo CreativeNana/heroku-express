@@ -13,4 +13,3 @@
    
 ### Attributions: 
   + acidtone: sample-code
-  + Moment.js: https://momentjs.com/ 
