@@ -1,0 +1,141 @@
+
+html, body {
+  display: flex;
+
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+/* Initialize each tag margin and padding */
+body, header, h1, h2, h3, h4, p, article, address, footer {
+  margin:0; 
+  padding:0;
+  display:block;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  font-size: 2em;
+
+  background-color: black;
+  color: rgb(158, 142, 214);
+
+  text-align: center; 
+  padding: 0.5em;   
+}
+
+/* Making it pretty. */
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+/* Set default responsive image width. */
+  width: 75vw;
+  height: auto;
+  max-width: 1500px;
+  display: block;
+
+/* Specify the border lines that surround the image. */
+  border: 1px solid gray;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 1em;
+}
+
+article p{
+  float: left;
+  width: 70vw;
+}
+
+article h4{
+  float: left;
+  width: 70vw;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  
+  flex-shrink: 0;
+  margin-top: 20px;
+  padding-top: 15px;
+  background: lightslategray;
+
+  color: black;
+  text-align: center;
+}
+
+/* Decorating texts */
+/* Resize text linearly depending on the width of the viewport */
+body {
+  font-size: clamp(16px, 3vw, 17px);
+}
+
+article address{
+  font-size: smaller;
+  color: rgb(60, 66, 66);
+}
+
+article h2 {
+  font-size: 2.7em;
+  color: rgb(80, 2, 153);
+}
+
+article h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  color: rgb(157, 147, 158);
+
+  margin-top: 30px;
+}
+
+article p{
+  font-size:  1.4em;
+}
+
+article a{
+  font-size:  1.2em;
+  color: rgb(35, 32, 179);
+}
+
+footer a {
+  color: gray;
+  font-size: smaller;
+}
+
+/* Tablet Portrait and Landscape */
+@media only screen and (max-width: 750px) {
+  header {
+    width: 100%;
+    height: 100px;
+    font-size: 1.2em;
+  } 
+
+  article h4 {
+    font-size: .9em;
+  }
+
+  article h2 {
+    font-size: 1.5em;
+  }
+
+  article p{
+    font-size:  1em;
+  }
+
+  article a{
+    font-size:  .9em;
+  }
+}  

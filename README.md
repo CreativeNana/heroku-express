@@ -1,15 +1,15 @@
 ## [Course title: CPNT-262: Web Client & Server Prog.]
 
-### NPM (Node Package Manager): Activity-3
-### Author name: Na Young Lee
+### Static express and Heroku: Activity-2
+### Author name: Nana
 
 ### Links to:
-#### Installing project dependencies from a cloned repo
-  + GH repo: *https://github.com/CreativeNana/hello-express*
-  + GH page: *https://creativenana.github.io/hello-express/public/index.html*
+#### Using express.static() to serve static files
+  + GH repo: *https://github.com/CreativeNana/heroku-express*
+  + GH page: *https://creativenana.github.io/heroku-express/public/index.html*
 
 ### Comments: 
-  + Install NPM and Add NPM modules
+  + Install NPM express modules and prepare to deploy a static express website to Heroku
    
 ### Attributions: 
   + acidtone: sample-code

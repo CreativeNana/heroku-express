@@ -3,9 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello Express!</title>
+  <title> Blog home page </title>
+
+  <!-- Link to CSS files -->
+  <link rel="stylesheet" href="https://creativenana.github.io/assets/css/v0/reset.css">
+  <link rel="stylesheet" href="https://creativenana.github.io/assets/css/v0/utility.css">
+  <link rel="stylesheet" href="css/playfair-bold-italic_open-sans.css">
+  <link rel="stylesheet" href="css/main.css">
+
 </head>
+
 <body>
-  <h1>Hello Express!</h1>
+  <div class="wrapper">
+    <header> 
+      <h1>Blog: World of Taste</h1>
+    </header>
+
+    <main>
+      <article>
+        <h4>[Special Issue] World of food ingredients 1 / Oct 15, 2020</h4>
+        <h2>Tomato</h2>
+        <address>From Wikipedia, the free encyclopedia</address>
+        <img src="images/md/tomato_md.jpg" alt="Tomato"
+             srcset="images/sm/tomato_sm.jpg 750w,
+                    images/md/tomato_md.jpg 1250w,
+                    images/lrg/tomato_lrg.jpg 1500w"
+             sizes="(min-width: 1250px) 1375px,
+                    (min-width: 750px) 800px,
+                    250px">
+        <p>Tomatoes are a significant source of umami flavor...</p>
+        <a class="more" href="https://en.wikipedia.org/wiki/Tomato">Read More...</a>
+      </article>   
+
+      <article>
+        <h4>[Special Issue] World of food ingredients 2 / Oct 13, 2020</h4>
+        <h2>Carrot</h2>
+        <address>From Wikipedia, the free encyclopedia</address>
+        <img src="images/md/carrot_md.jpg" alt="Carrot" 
+             srcset="images/sm/carrot_sm.jpg 750w,
+                    images/md/carrot_md.jpg 1250w,
+                    images/lrg/carrot_lrg.jpg 1500w"
+             sizes="(min-width: 1250px) 1375px,
+                    (min-width: 750px) 800px,
+                    250px">
+        <p>The carrot is a root vegetable. Baby carrots have been a popular ready-to-eat snack ...</p>
+        <a class="more" href="https://en.wikipedia.org/wiki/Carrot">Read More...</a>
+      </article>  
+
+      <article>
+        <h4>[Special Issue] World of food ingredients 3 / Oct 11, 2020</h4>
+        <h2>Lemon</h2>
+        <address>From Wikipedia, the free encyclopedia</address>
+        <img src="images/md/lemon_md.jpg" alt="Lemon" 
+             srcset="images/sm/lemon_sm.jpg 750w,
+                    images/md/lemon_md.jpg 1250w,
+                    images/lrg/lemon_lrg.jpg 1500w"
+             sizes="(min-width: 1250px) 1375px,
+                    (min-width: 750px) 800px,
+                    250px">
+        <p>Lemon juice, rind, and peel are used in a wide variety of foods and drinks...</p>
+        <a class="more" href="https://en.wikipedia.org/wiki/Lemon">Read More...</a>
+      </article>  
+
+      <article>
+        <h4>[Special Issue] World of food ingredients 4 / Oct 09, 2020</h4>
+        <h2>Scallions</h2>
+        <address>From Wikipedia, the free encyclopedia</address>
+        <img src="images/md/scallions_md.jpg" alt="Scallions"  
+             srcset="images/sm/scallions_sm.jpg 750w,
+                    images/md/scallions_md.jpg 1250w,
+                    images/lrg/scallions_lrg.jpg 1500w"
+             sizes="(min-width: 1250px) 1375px,
+                    (min-width: 750px) 800px,
+                    250px">
+        <p>Scallions may be cooked or used raw as a part of salads, salsas or Asian recipes...</p>
+        <a class="more" href="https://en.wikipedia.org/wiki/Scallion#Uses">Read More...</a>
+      </article> 
+
+      <article>
+        <h4>[Special Issue] World of food ingredients 5 / Oct 07, 2020</h4>
+        <h2>Black pepper</h2>
+        <address>From Wikipedia, the free encyclopedia</address>
+        <img src="images/md/blackpepper_md.jpg" alt="Black pepper" 
+             srcset="images/sm/blackpepper_sm.jpg 750w,
+                    images/md/blackpepper_md.jpg 1250w,
+                    images/lrg/blackpepper_lrg.jpg 1500w"
+             sizes="(min-width: 1250px) 1375px,
+                    (min-width: 750px) 800px,
+                    250px">
+        <p>Black pepper, known as a peppercorn, is usually dried and used as a spice and seasoning... </p>
+        <a class="more" href="https://en.wikipedia.org/wiki/Black_pepper">Read More...</a>
+      </article>  
+    </main>
+  </div>
+
+  <footer class="footer">
+    <script>document.write(new Date().getFullYear());</script> @ CreativeNana
+  </footer>
 </body>
 </html>
